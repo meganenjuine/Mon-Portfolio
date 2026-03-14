@@ -1,84 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <header>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mon Portfolio </title>
-        <h1>NJUINE TCHINDA ANAELLE</h1>
-        <P>Etudiante en informatique licence 1 passionnée par le develloppement web et l'open-source </P>
-    </header>
-
-<body>
-
-    <nav>
+        <title>Mon Portfolio</title>
+        <body>
+            <header>
+                <p>develloppeur web etudiant en informatique</p>
+                <h1>Njuine Megane</h1>
+                <p>etudiante en licence 1 informatique passionnée pqr le develloppement web et l'open-source</p>
+                <button><a href="https://wa.me/237640691784">Me contacter</a></button>
+                <img src="portrait.png" alt="ceci est ma photo de profil">
+            </header>
+        <nav>
         <ul>
-            <li><a href="">Accueil</a></li>
-            <li><a href="">A propos</a></li>
-            <li><a href="">Compétences</a></li>
-            <li><a href="">Parcours</a></li>
-            <li><a href="">Contacts</a></li>
+            <li><a href="#propos">A propos</a></li>
+            <li><a href="#compétences">Compétences</a></li>
+            <li><a href="#parcours">Parcours</a></li>
+            <li><a href="#contacts">Contacts</a></li>
         </ul>
     </nav>
     <!section A propos de mon portfolio>
-        <section>
-            <h2>A propos</h2>
-            <p>Je suis etudiante en licence 1 informatique passionnée par le develloppement web et l'open-source
-                aspirant à crée mon propre site web et le mettre en ligne</p>
-            <img src="photo.png" alt="ceci est ma photo de profil " width="250" height="300">
+        <section id="propos">
+            <p>A propos</p>
+            <h1>Qui suis je?</h1>
+            <p>Je suis étudiante en informatique première année d'informatique passionnée par la création de solutions numérique etnla découverte des technologies du web</p><br>
+            <p>actuellement j'apprends les bases du develloppement web notemment le HTML;le CSS;et les outils de gestion de version comme Git et GitHub.A travers mes projets ;je developpe mes compétences en programmation et en conception de sites web.</p><br>
+            <p>Curieuse et motivée je cherche constemment à améliorer mes connaissances et à acquerir de l'expérience dans le domaine de l'informatique</p>
+            <div>
+                <h2>1<sup>ère</sup></h2>
+                <p>ANNEE D'INFORMATIAUE</p>
+            </div>
+            <div>
+                <h2>3+</h2>
+                <P>TECHNOLOGIE MAITRISE</P>
+            </div>
+            <div>
+                <h2>futur</h2>
+                <p>ENVIE D'APPRENDRE</p>
+            </div>
         </section>
         <!--section compétence de mon portfolio-->
-        <section>
-            <h2>Competences</h2>
-            <ul>
-                <li>compétences de base sur git hub</li>
-                <li>compétence de base sur HTML</li>
-                <li>compétence en developpement web</li>
-                <LI>compétence en E-commerçe et marketing</LI>
-            </ul>
+        <section id="compétences">
+            <P>compétences</P>
+            <h1>ce que je sais faire</h1>
+            <div>
+                <h2>HTML</h2>
+                <P>structure sémantique;accessibilité;bonnes pratiques</P>
+            </div>
+            <div>
+                <h2>GIT</h2>
+                <P>versioning ;branches;gestion de l'historique</P>
+            </div>
+            <div>
+                <h2>GItHUB</h2>
+                <p>collaboration;pull requests;hébergement de projets</p>
+            </div>
+            <div>
+                <h2>travaille en équipe</h2>
+                <p>communication ;organisation;méthodes agiles</p>
+            </div>
+            <div>
+                <h2>resolution de problème</h2>
+                <p>analyse;décomposition;logique;algorithmique</p>
+            </div>
         </section>
-        <section>
-            <h2>parcours</h2>
-            <table border="1">
-                <thead>
-                    <th>année</th>
-                    <th>activité</th>
-                </thead>
-                <tbody>
-
-                    <td>2025</td>
-                    <td>élève</td>
-                    <tr></tr>
-                    <td>2026</td>
-                    <td>étudiante</td>
-
-                </tbody>
-            </table> 
+        <!--section parcour de mon portfolio  -->
+        <section id="parcours">
+            <p>parcours</p>
+            <h1>Mon chemin</h1>
+            <h3>2025</h3>
+            <div>
+                <h3>diplome</h3>
+                <h3>baccalauréat</h3>
+                <p>obtention du baccalauréat avec spécialité scientifique;premier pas vers l'informatique</p>
+            </div>
+            <h3>2026</h3>
+            <div>
+                <h3>formation</h3>
+                <h3>L1 Informatique</h3>
+                <p>première année de licence informatique ;initiation à l'algorithmique;au languages et aux systèmes</p>
+            </div>
+            <h3>2026</h3>
+            <div>
+                <h3>En cours</h3>
+                <h3>Formation en develloppement web</h3>
+                <p>apprentissage du HTML;CSS;et des bases du develloppement front-end moderne </p>
+            </div>
         </section>
-        <!-section contact de mon portfolio--->
-        <section>
-            <h2>Contact</h2>
+        <!--section contact de mon portfolio--->
+        <section id="contact">
+            <p>contact</p>
+            <h1>Travaillons</h1>
+            <h2>ensemble</h2>
+            <p>une question;une idée de projet ;ou simplement envie d'échanger?N'hésitez pas à m'écrire </p>
             <form action="contact">
                 <div>
-                    <label for="nom">nom </label><br>
+                    <label for="nom" id="nom">nom </label><br>
                     <input type="text">
                 </div>
                 <div>
-                    <label for="email">email</label>
+                    <label for="email" id="nom">email</label><br>
                     <input type="email">
                 </div>
-                    <textarea name="message" id="message"></textarea>
-                    <button type="submit">envoyer</butto
+                <label>zone de texte message</label><br>
+                    <textarea name="message" id="message" cols="30" rows="5"></textarea><br>
+                    <button type="submit">envoyer le message</button><br>
             </form>
             <footer>
-                <p>propentatech portfolio ;2026 ;faites moi confiance pour la realisation de vos différents projets</p>
+                <h2>MN</h2>
+                <p>&copy;2026 Megane Njuine-tous droits reservés </p>
+                <p>étudiante en informatique</p>
+                <p><a href="mailto:meganenjuine@gmail.com">meganenjuine@gmail.com</a></p>
+                <p><a href="https://github.com/meganenjuine"target="blank">Mon GitHub</a></p>
             </footer>
         </section>
-
-
-
-
 </body>
-
 </html>
